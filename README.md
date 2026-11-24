@@ -1,8 +1,8 @@
-# Portafolio de Tableros Agrícolas
+# Portafolio de Tableros de Análisis de Datos
 
-Tableros de análisis de datos para el sector agrícola, elaborados por **Walther Barrientos – Analista de Datos e Ingeniero de Software**.
+Tableros de análisis de datos para el sector agrícola y para pymes, elaborados por **Walther Barrientos – Analista de Datos e Ingeniero de Software**.
 
-Los cuatro tableros comparten las mismas 5 fincas y 18 lotes:
+Los cuatro tableros agrícolas comparten las mismas 5 fincas y 18 lotes:
 
 | Finca | Lotes |
 |---|---|
@@ -34,6 +34,11 @@ Trabajadores, jornales por labor, costo de nómina por finca, rendimiento kg/jor
 
 ![RRHH](Tablero_RRHH_Jornales.png)
 
+### 5. Tablero Financiero para Pymes
+Ingresos, utilidad neta y margen, estado de resultados en cascada, flujo de caja acumulado, cartera por antigüedad y gastos reales vs. presupuesto.
+
+![Financiero](Tablero_Financiero_Pyme.png)
+
 ## Cómo ejecutarlo
 
 ```bash
@@ -41,6 +46,7 @@ pip install -r requirements.txt
 python informe_cosecha.py      # genera el informe y los datos base de los lotes
 python costos_y_ventas.py      # tableros de costos y ventas
 python rrhh_jornales.py        # tablero de RRHH
+python tablero_financiero.py   # tablero financiero
 ```
 
 ## Herramientas
